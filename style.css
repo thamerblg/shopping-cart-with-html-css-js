@@ -1,0 +1,27 @@
+body {
+  font-family: "Montserrat", sans-serif !important;
+}
+input {
+  -webkit-appearance: none;
+  border: none;
+  text-align: center;
+  width: 24px;
+  font-size: 16px;
+  color: #43484d;
+  font-weight: 300;
+}
+input:focus {
+  outline: 0;
+}
+button[class*="btn"] {
+  height: 35px;
+  width: 35px;
+  background: #f2f2f2;
+  border-radius: 50%;
+  font-size: 16px;
+  line-height: 25px;
+  color: black;
+}
+button[class*="btn"] i {
+  font-weight: 900;
+}
